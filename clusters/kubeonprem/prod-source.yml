@@ -4,7 +4,7 @@ metadata:
   name: prod
   namespace: flux-system
 spec:
-  interval: 30s
+  interval: 5s
   ref:
     branch: main
   url: https://github.com/bclavijo110430/cicd-flow
