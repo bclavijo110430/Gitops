@@ -1,0 +1,10 @@
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: preprod
+  namespace: flux-system
+spec:
+  interval: 30s
+  ref:
+    branch: preprod
+  url: https://github.com/bclavijo110430/cicd-flow
