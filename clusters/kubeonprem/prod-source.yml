@@ -6,5 +6,5 @@ metadata:
 spec:
   interval: 5s
   ref:
-    branch: main
+    branch: master
   url: https://github.com/bclavijo110430/cicd-flow
